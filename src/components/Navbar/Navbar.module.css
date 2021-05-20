@@ -1,0 +1,87 @@
+.navbg{
+  background: var(--middark);
+}
+.mynav{
+  padding: 1rem 3rem !important;
+  border-top: .18rem solid var(--viewcolor);
+}
+.mybrand{
+  font-family: var(--font);
+  font-weight: 600;
+  color: var(--viewcolor);
+}
+.mylink{
+  background: var(--litedark);
+  border-radius: 12rem;
+  line-height: 0rem;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: .4rem .9rem !important;
+  margin: .1rem 0.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.mylinkactive{
+  text-decoration: none;
+  transition: all ease .4s;
+  color: var(--viewcolor) !important;
+}
+.mylink:hover{
+  text-decoration: none;
+  transition: all ease .4s;
+  background: var(--hover);
+}
+.mylink:focus{
+  text-decoration: none;
+  transition: all ease .4s;
+  background: var(--hover);
+  
+
+}
+.mylink span{
+  font-size: 1rem;
+}
+.mydropdown{
+  background: var(--litedark) !important;
+}
+.myditem{
+  color: var(--fontcolor) !important;
+}
+.myditem:hover{
+  text-decoration: none;
+  transition: all ease .4s;
+  background: var(--hover) !important;
+}
+.myditem:focus{
+  text-decoration: none;
+  transition: all ease .4s;
+  background: var(--hover) !important;
+  color: var(--fontcolor) !important;
+}
+.mydactive{
+  background: var(--hover) !important;
+  color: var(--viewcolor) !important;
+}
+.my_fixed{
+    position: fixed !important;
+    top: 0;
+    z-index: 1030;
+    left: 0;
+    right: 0;
+    box-shadow: 1px 1px 15px 1px rgb(0 0 0 / 25%);
+    transition: all ease 1s;
+}
+
+  
+
+
+  .active  {
+    color: white !important;
+    font-weight: bold;
+    background: #4CAF50;
+  }
+  
+
+
+  

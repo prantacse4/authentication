@@ -1,0 +1,44 @@
+.header_top{
+    height: 25rem;
+    background:var(--middark);
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0rem;
+    color: var(--inactive);
+}
+.top_image{
+height: 100%;
+width: auto;
+cursor: default;
+}
+.image_side{}
+.intro_side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0rem 1rem;
+}
+.intro_side h3{
+    cursor: default;
+    color: var(--viewcolor);
+
+}
+.intro_side h4, h5{
+    cursor: default;
+    line-height: 2rem;
+}
+
+.intro_side h4:hover, h5:hover{
+    color: var(--viewcolor);
+    transition: all ease-in-out .5s;
+}
+
+.links a{
+    color: var(--fontcolor);
+    margin-right: .4rem;
+}
+.links a:hover{
+    transition: all ease-in-out .4s;
+    text-decoration: none;
+    color: var(--viewcolor) !important;
+}
